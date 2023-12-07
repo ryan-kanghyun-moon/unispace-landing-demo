@@ -1,0 +1,113 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+@font-face {
+    font-family: 'TAEBAEKfont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TAEBAEKmilkyway';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.Slogan {
+    margin: 50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 40px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.UniLogo {
+    width: 30%;
+}
+
+.Catch-phrase {
+
+    font-size: 60px;
+    font-style: bold;
+    text-align: center;
+    font-family: 'TAEBAEKfont', sans-serif;
+
+}
+
+
+.Summary {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'TAEBAEKfont', sans-serif;
+
+}
+
+.Start-button {
+    font-family: 'TAEBAEKfont', sans-serif;
+    background-color: #7061f9; /* Green */
+    border: 3px solid #7061f9;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Start-button:hover {
+    background-color: rgba(1,1,1,0); /* Green */
+    color: black;
+    border: 3px solid black;
+}
+
+.Usecase {
+    margin:100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 60px;
+    justify-items: center;
+}
+
+.text-blob {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+.title {
+    font-family: 'TAEBAEKfont', sans-serif;
+    font-size: 50px;
+}
+
+.title2 {
+    font-family: 'TAEBAEKfont', sans-serif;
+    font-size: 30px;
+    color: #3498db;
+}
+
+.explanation {
+    font-family: 'TAEBAEKmilkyway', sans-serif;
+    font-size: 25px;
+    font-style: bold;
+}
