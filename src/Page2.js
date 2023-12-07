@@ -1,4 +1,4 @@
-import bald from "./김광규.jpeg";
+import bald from "./김광규.jpg";
 function Page2() {
   return (
     <img
