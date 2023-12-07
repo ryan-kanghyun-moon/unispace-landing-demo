@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/unispace-landing-demo/static/css/main.7f8b2994.css",
-    "main.js": "/unispace-landing-demo/static/js/main.d849b349.js",
+    "main.js": "/unispace-landing-demo/static/js/main.bc0acbaa.js",
     "static/js/787.b643a9cc.chunk.js": "/unispace-landing-demo/static/js/787.b643a9cc.chunk.js",
     "static/media/Screenshot 2023-12-07 at 1.13.56 AM.png": "/unispace-landing-demo/static/media/Screenshot 2023-12-07 at 1.13.56 AM.386292b0e4d8bdc9100f.png",
     "static/media/Unispace Profile Logo_Official(1080_1080px).png": "/unispace-landing-demo/static/media/Unispace Profile Logo_Official(1080_1080px).d70069a2deeb391d6b03.png",
@@ -10,11 +10,11 @@
     "static/media/김광규.jpg": "/unispace-landing-demo/static/media/김광규.28c027e249fe87bc40b9.jpg",
     "index.html": "/unispace-landing-demo/index.html",
     "main.7f8b2994.css.map": "/unispace-landing-demo/static/css/main.7f8b2994.css.map",
-    "main.d849b349.js.map": "/unispace-landing-demo/static/js/main.d849b349.js.map",
+    "main.bc0acbaa.js.map": "/unispace-landing-demo/static/js/main.bc0acbaa.js.map",
     "787.b643a9cc.chunk.js.map": "/unispace-landing-demo/static/js/787.b643a9cc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f8b2994.css",
-    "static/js/main.d849b349.js"
+    "static/js/main.bc0acbaa.js"
   ]
 }
