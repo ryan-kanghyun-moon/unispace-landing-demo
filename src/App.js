@@ -6,7 +6,7 @@ import Page2 from "./Page2";
 import Nav from "./Nav";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       {/* <div className="App"> */}
       {/* <Nav /> */}
       {/* <Switch> */}
