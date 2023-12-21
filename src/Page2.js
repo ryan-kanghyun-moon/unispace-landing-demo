@@ -1,11 +1,10 @@
-import bald from "./김광규.jpg";
+import bald from "./bald.jpg";
 function Page2() {
   return (
-    <img
-      src={bald}
-      alt="자라나라머리머리"
-      style={{ width: "50%", height: "50%" }}
-    />
+    <div style={{style: "flex", leftMargin: "10px" }}>
+      <img src={bald} alt="자라나라머리머리" style={{ width: "50%" }} />
+      받아라!
+    </div>
   );
 }
 

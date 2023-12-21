@@ -1,5 +1,5 @@
 import uniLogo from "./Unisapce Profile Logo_Team(1080_1080px).png";
-import jaemin from "./Screenshot 2023-12-07 at 1.13.56 AM.png";
+import bald from "./bald.jpg";
 import "./Home.css";
 
 function Home() {
@@ -38,14 +38,12 @@ function Slogan() {
 }
 
 function Usecase() {
-  let title = "신재민, 그는 신인가?";
-  //   let title2 =
-  //     "신재민 넌 뭐랄까.. 마치 베를린 같아. 왜냐하면 치명적인 독일 수도.";
+  let title = "김곽철, 그는 신인가?";
   let explanation =
-    "재민을 더 이상 못 보겠습니다. 재민이 남자로 보입니다. \
+    "곽철을 더 이상 못 보겠습니다. 곽철이 남자로 보입니다. \
     그리고 그 남자를 사랑하게 됐습니다. \
-    이뤄질 수 없다는 걸 알기에 재민을 사랑하는 심장을 찢어내려 합니다.\
-    유니스페이스 여러분들 재민을 아껴주세요. 그러나 조심하십시오. \
+    이뤄질 수 없다는 걸 알기에 곽철을 사랑하는 심장을 찢어내려 합니다.\
+    유니스페이스 여러분들 곽철을 아껴주세요. 그러나 조심하십시오. \
     저처럼 죽을만큼 사랑하게 되면 가슴이 찢어지는 고통을 맛보게 될 겁니다. \
     그와 이뤄질 수 없다는 걸 알기에 눈물만 흘리다 결국 그 웅덩이 속으로 가라앉게 될 겁니다.";
   return (
@@ -53,14 +51,14 @@ function Usecase() {
       <div className="text-blob">
         <div className="title">{title}</div>
         <div className="title2">
-          신재민 넌 뭐랄까.. 마치 베를린 같아. <br /> 왜냐하면 치명적인 독일
+          김곽철 넌 뭐랄까.. 마치 베를린 같아. <br /> 왜냐하면 치명적인 독일
           수도.
         </div>
         <text className="explanation">{explanation}</text>
       </div>
       <img
-        src={jaemin}
-        alt="재민의 용안"
+        src={bald}
+        alt="자라나라 머리머리"
         style={{
           width: "90%",
           borderRadius: "12px",
